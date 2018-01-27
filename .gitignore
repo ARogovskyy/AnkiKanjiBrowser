@@ -99,9 +99,12 @@ ENV/
 
 # mypy
 .mypy_cache/
+<<<<<<< HEAD
 
 .vscode/
 Include/
 Scripts/
 pyvenv.cfg
 pip-selfcheck.json
+=======
+>>>>>>> 9355c6b9c73cc426c9e64ce48e0ae26b7c38b8d8
