@@ -87,7 +87,7 @@ if __name__ == "__main__":
     sys.exit(app.exec_())
 else:
     load_fonts()
-    show_kanji_browser_action = QAction("ThundX Custom: Show Kanji browser", mw)
+    show_kanji_browser_action = QAction("Show Kanji browser", mw)
     show_kanji_browser_action.setShortcut("Ctrl+K")
     show_kanji_browser_action.triggered.connect(ui_show_kanji_browser)
     mw.form.menuTools.addAction(show_kanji_browser_action)
