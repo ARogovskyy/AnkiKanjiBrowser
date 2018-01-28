@@ -30,7 +30,7 @@ class NotesModel(QAbstractListModel):
         if search:
             filters.append(search)
         
-        search_pattern = ' and '.join(filters)
+        search_pattern = ' '.join(('('+x+')' for x in filters))
         self.internal_list = []
         for noteId in mw.col.findNotes(search_pattern):
             note = mw.col.getNote(noteId)
