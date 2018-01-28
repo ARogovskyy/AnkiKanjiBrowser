@@ -4,6 +4,7 @@ A grid-like Kanji browser add-on for Anki (2.0)
 This add-on helps studying kanji by arranging them in a grid-like pattern.
 Additionally, it allows filtering by JLPT-Levels and Jōyō-Kanji grades, and add custom tags to selected kanji.
 For example, you could filter out the Grade 2 Kanji and then add a tag to a subset of them that you want to study later.
+To open the kanji browser, use the shortcut Ctrl+K or go to Tools -> Show Kanji Browser
 
 ### Important Note ###
 
